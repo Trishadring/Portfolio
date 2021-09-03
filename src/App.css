@@ -1,3 +1,8 @@
+html{
+  font-size: 62.5%;
+  /* makes using rem easier */
+}
+
 /* fonts */
 
 @font-face {
@@ -12,7 +17,7 @@
 body{
   background-color: #f9f9fa;
   font-family: 'GeogrotesqueM';
-  font-size: .875rem;
+  font-size: 1.4rem;
   color: #4a4a4a;
 }
 
