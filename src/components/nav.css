@@ -1,0 +1,18 @@
+/* Navbar  */
+.nav-link{
+  color:black;
+}
+.logo {
+  height: 50px;
+}
+header{
+  box-shadow: 2px 1rem 0.7rem -1rem #cccccc;
+  background-color: white;
+}
+.navbar{
+  padding: .5rem 1rem;
+}
+
+.nav-link {
+  color: #0a334c;
+}

@@ -1,18 +1,18 @@
-body{
-  background-color: #f9f9fa;
+/* fonts */
+
+@font-face {
+  font-family: GeogrotesqueB;
+  src: url(fonts/Geogrotesque-Bold.otf);
+}
+@font-face {
+  font-family: GeogrotesqueM;
+  src: url(fonts/Geogrotesque-Medium.otf);
 }
 
-/* Navbar  */
-.nav-link{
-  color:black;
+body{
+  background-color: #f9f9fa;
+  font-family: 'GeogrotesqueM';
+  font-size: .875rem;
+  color: #4a4a4a;
 }
-.logo {
-  height: 50px;
-}
-header{
-  box-shadow: 2px 1rem 0.7rem -1rem #cccccc;
-  background-color: white;
-}
-.navbar{
-  padding: .5rem 1rem;
-}
+
