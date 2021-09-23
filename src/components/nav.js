@@ -6,6 +6,7 @@ import Projects from './project-list';
 import Aub from './projects/auburn';
 import M3d from './projects/m3d';
 import Uroute from './projects/uroute';
+import Thesis from './projects/thesis'
 
 const Nav = () => {
   return (
@@ -35,6 +36,7 @@ const Nav = () => {
       <Route path="/Auburn" component={Aub}/>
       <Route path="/M3D" component={M3d}/>
       <Route path="/Uroute" component={Uroute}/>
+      <Route path="/FixHFA" component={Thesis}/>
       <Route exact path="/">
         <Redirect to="/projects" />
       </Route>

@@ -22,13 +22,13 @@ const Projects = () =>  {
       </Link>
       <Link to="/Uroute">
         <div className="p-item">
-          <img alt="Auburn Pharmaceutical's Logo" className="p-image" src={Uroute}/>
+          <img alt="URoute's Logo" className="p-image" src={Uroute}/>
           <p className="caption">URoute</p>
         </div>
       </Link>
-      <Link to="/M3D">
+      <Link to="/FixHFA">
         <div className="p-item">
-          <img alt="Auburn Pharmaceutical's Logo" className="p-image" src={Thesis}/>
+          <img alt="Photo of CCS" className="p-image" src={Thesis}/>
           <p className="caption">CCS & HFA Way-finding</p>
         </div>
       </Link>

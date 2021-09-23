@@ -1,0 +1,12 @@
+.responce {
+  padding: 10px;
+}
+
+.eyebrow {
+  letter-spacing: .08rem;
+  font-size: 1.4rem;
+}
+
+p, .eyebrow {
+  max-width: 50ch;
+}
