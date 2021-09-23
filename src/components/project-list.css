@@ -1,3 +1,10 @@
+a{
+  text-decoration: none;
+}
+h2{
+  margin-top: 100px;
+}
+
 .p-item{
   max-width: 50ch;
   margin:1em;
@@ -12,6 +19,15 @@
 .caption {
   padding-top: 1rem;
   letter-spacing: .1rem;
+  padding-bottom: 1rem;
   color: #4a4a4a;
   text-align: center;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: .05rem;
+  font-size: 1.9rem;
+  color: hsl(0,0%,40%);
+  text-shadow: none;
 }

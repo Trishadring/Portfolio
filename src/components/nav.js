@@ -3,6 +3,7 @@ import { Route, Link, Redirect} from "react-router-dom";
 import LogoS from '../imgs/logo-sm.png';
 import Logo1 from "../imgs/logo-01.png";
 import Projects from './project-list';
+import Aub from './projects/auburn';
 
 const Nav = () => {
   return (
@@ -10,10 +11,10 @@ const Nav = () => {
       <header className="navbar">
         <div className="container">
         <Link to="/projects">
-          <a className="mb-0 navbar-brand">
+          <p className="mb-0 navbar-brand">
             <img alt="Trisha Dring" className="image logo d-sm-none" src={LogoS}/>
             <img className="image logo d-none d-sm-block" alt="Trisha Dring" src={Logo1}/>
-          </a>
+          </p>
           </Link>
           <ul className="nav">
             <li className="nav-item">
@@ -30,6 +31,7 @@ const Nav = () => {
       </header>
       {/* <Route  path="/about" component={About} /> */}
       <Route exact path="/projects" component={Projects} />
+      <Route path="/Auburn" component={Aub}/>
       <Route exact path="/">
         <Redirect to="/projects" />
       </Route>

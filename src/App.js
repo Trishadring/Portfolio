@@ -1,7 +1,7 @@
 import './App.css';
 import Nav from './components/nav';
 
-function App() {
+const App = () =>  {
   return (
     <div >
       <Nav/>
