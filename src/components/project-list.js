@@ -8,7 +8,7 @@ import Thesis from '../imgs/thesis.png';
 const Projects = () =>  {
   return (
     <div className="container portfolio-items flex-row d-flex flex-wrap"> 
-       <Link to="/Auburn">
+      <Link to="/Auburn">
         <div className="p-item">
           <img alt="Auburn Pharmaceutical's Logo" className="p-image" src={Auburn}/>
           <p className="caption">Auburn Pharmaceutical </p>
@@ -32,10 +32,7 @@ const Projects = () =>  {
           <p className="caption">CCS & HFA Way-finding</p>
         </div>
       </Link>
-
     </div>
-
-    
   );
 }
 

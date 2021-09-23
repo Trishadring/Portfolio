@@ -4,6 +4,7 @@ import LogoS from '../imgs/logo-sm.png';
 import Logo1 from "../imgs/logo-01.png";
 import Projects from './project-list';
 import Aub from './projects/auburn';
+import M3d from './projects/m3d';
 
 const Nav = () => {
   return (
@@ -29,9 +30,9 @@ const Nav = () => {
           </ul>
         </div>
       </header>
-      {/* <Route  path="/about" component={About} /> */}
       <Route exact path="/projects" component={Projects} />
       <Route path="/Auburn" component={Aub}/>
+      <Route path="/M3D" component={M3d}/>
       <Route exact path="/">
         <Redirect to="/projects" />
       </Route>
