@@ -20,7 +20,7 @@ const Projects = () =>  {
           <p className="caption">M3D Experiences</p>
         </div>
       </Link>
-      <Link to="/M3D">
+      <Link to="/Uroute">
         <div className="p-item">
           <img alt="Auburn Pharmaceutical's Logo" className="p-image" src={Uroute}/>
           <p className="caption">URoute</p>

@@ -5,6 +5,7 @@ import Logo1 from "../imgs/logo-01.png";
 import Projects from './project-list';
 import Aub from './projects/auburn';
 import M3d from './projects/m3d';
+import Uroute from './projects/uroute';
 
 const Nav = () => {
   return (
@@ -33,6 +34,7 @@ const Nav = () => {
       <Route exact path="/projects" component={Projects} />
       <Route path="/Auburn" component={Aub}/>
       <Route path="/M3D" component={M3d}/>
+      <Route path="/Uroute" component={Uroute}/>
       <Route exact path="/">
         <Redirect to="/projects" />
       </Route>

@@ -38,16 +38,11 @@ const M3d = () =>  {
       The most extensive and difficult custom code created for this site was the timeline.
       This is due to the old timeline not fitting the current design and lacking the customization options required. All text was written by a copywriter with feedback from the client.
       </p>
-      <p className="pt-5">Homepage
-      </p>
+      <p className="pt-5">Homepage</p>
       <img className="d-block w-100" src="http://tdring.com/w/m3d/deshler/gs3/gs3-homepage.png" alt="Homepage"/>
-      <p className="pt-5">
-        Timeline
-      </p>
+      <p className="pt-5">Timeline</p>
       <img className="d-block w-100" src="http://tdring.com/w/m3d/deshler/gs3/gs3-timeline.png" alt="Timeline"/>
-      <p className="pt-5">
-        Press Room
-      </p>
+      <p className="pt-5">Press Room</p>
       <img className="d-block w-100" src="http://tdring.com/w/m3d/deshler/gs3/gs3-pressroom.png" alt="Press Room"/>
 
       <h2 className="eyebrow">M3D WEBSITE</h2>
@@ -56,18 +51,15 @@ const M3d = () =>  {
       At M3D I was responsible for updating and maintaining the studio's site. 
       I created new pages for different projects, telling the story of each one.
       </p>
-      <p className="pt-5">Bobien Fine Foods
-      </p>
+      <p className="pt-5">Bobien Fine Foods</p>
       <img className="d-block w-100" src="http://tdring.com/w/m3d/m3d-site/m3d-beaubien.png" alt="Homepage"/>
-      <p className="pt-5">
-        Paralee Boyd
-      </p>
+      <p className="pt-5">Paralee Boyd</p>
       <img className="d-block w-100" src="http://tdring.com/w/m3d/m3d-site/m3d-paralee.png" alt="Timeline"/>
 
       <h2 className="eyebrow">PARALEE BOYD</h2>
       <hr/>
       <p>
-      Paralee Boyd is a salon opening up in midtown. I created the banners to advertise the store during construction.
+        Paralee Boyd is a salon opening up in midtown. I created the banners to advertise the store during construction.
       </p>
       <img className="d-block w-100" src="http://tdring.com/w/m3d/paralee/3.jpg" alt="Homepage"/>
       <img className="d-block w-100" src="http://tdring.com/w/m3d/paralee/2.jpg" alt="Timeline"/>
