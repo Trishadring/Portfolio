@@ -6,7 +6,8 @@ import Projects from './project-list';
 import Aub from './projects/auburn';
 import M3d from './projects/m3d';
 import Uroute from './projects/uroute';
-import Thesis from './projects/thesis'
+import Thesis from './projects/thesis';
+import About from './about';
 
 const Nav = () => {
   return (
@@ -21,19 +22,20 @@ const Nav = () => {
           </Link>
           <ul className="nav">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/">About</a>
+              <a className="nav-link active" aria-current="page" href="/About">About</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/">Resume</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/">Contact</a>
+            <a className="nav-link" href="mailto:trisha.dring+website@gmail.com">Contact</a>
             </li>
           </ul>
         </div>
       </header>
       <Route exact path="/projects" component={Projects} />
       <Route path="/Auburn" component={Aub}/>
+      <Route path="/About" component={About}/>
       <Route path="/M3D" component={M3d}/>
       <Route path="/Uroute" component={Uroute}/>
       <Route path="/FixHFA" component={Thesis}/>
