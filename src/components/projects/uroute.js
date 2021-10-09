@@ -1,6 +1,10 @@
 import '../../App.css';
 import './projects.css';
 
+import homePage from './imgs/uroute/big.png';
+import contact from './imgs/uroute/CONTACT.png';
+import signUp from './imgs/uroute/SIGN2.png';
+
 const Uroute = () =>  {
   return (
     <div className="container" >
@@ -16,11 +20,11 @@ const Uroute = () =>  {
       <br></br>
       <hr/> 
       <p className="pt-5">Homepage</p>
-      <img className="d-block w-100" src="http://tdring.com/w/uroute/big.png" alt="Homepage"/>
+      <img className="d-block w-100" src={homePage} alt="Homepage"/>
       <p className="pt-5">Contact</p>
-      <img className="d-block w-100" src="http://tdring.com/w/uroute/CONTACT.png" alt="Contact"/>
+      <img className="d-block w-100" src={contact} alt="Contact"/>
       <p className="pt-5">Sign up</p>
-      <img className="d-block w-100" src="http://tdring.com/w/uroute/SIGN2.png" alt="Sign up"/>
+      <img className="d-block w-100" src={signUp} alt="Sign up"/>
     </div>
   );
 }

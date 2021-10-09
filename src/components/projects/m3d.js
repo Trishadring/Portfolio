@@ -39,7 +39,7 @@ const M3d = () =>  {
       <p className="pt-5">Amanda Manufacturing Capabilities</p>
       <img className="d-block w-100" src={amandaCapabilities} alt="Amanda Manufacturing Capabilities page"/>
       <p className="pt-5">Amanda Manufacturing Image Gallery</p>
-			<img className="d-block w-100" src={amandaImageGallery} alt="Amanda Manufacturing Image Gallery"/>
+			<img className="d-block w-100" src={amandaImageGallery} alt="Amanda Manufacturing Gallery"/>
       <p className="pt-5">Amanda Manufacturing Team</p>
 			<img className="d-block w-100" src={amandaTeam} alt="Amanda Manufacturing Team Page"/>
       <p className="pt-5">Amanda Products Homepage</p>

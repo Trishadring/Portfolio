@@ -1,4 +1,5 @@
 import '../App.css';
+import './about.css';
 
 const About = () =>  {
   return (
@@ -9,12 +10,12 @@ const About = () =>  {
         I like to Code.
         I've been working on getting a Front end Development job. 
       </p>
-
-      <a className="nav-link" href="https://www.linkedin.com/in/trisha-dring-1488b95b/">Linkedin</a>
-      <a className="nav-link" href="https://github.com/Trishadring">GitHub</a>
-      <a className="nav-link" href="https://www.ebay.com/str/gagnierfabric">Ebay Store</a>
-      <a className="nav-link" href="https://www.etsy.com/shop/GagnierInc?ref=profile_header">Etsy</a>
-
+      <div>
+        <a className="link" target="_blank" href="https://www.linkedin.com/in/trisha-dring-1488b95b/">Linkedin</a>
+        <a className="link" target="_blank" href="https://github.com/Trishadring">GitHub</a>
+        <a className="link" target="_blank" href="https://www.ebay.com/str/gagnierfabric">Ebay Store</a>
+        <a className="link" target="_blank" href="https://www.etsy.com/shop/GagnierInc?ref=profile_header">Etsy</a>
+      </div>
     </div>
   );
 }

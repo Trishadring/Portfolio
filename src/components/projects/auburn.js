@@ -28,25 +28,25 @@ const Aub = () =>  {
       <div className="clearfix"></div>
 
       <p className="pt-5">Auburn Homepage</p>
-      <img className="d-block w-100" src={aub1} alt="First slide"/>
+      <img className="d-block w-100" src={aub1} alt="Homepage"/>
       <p className="pt-5">About Page</p>
-      <img className="d-block w-100" src={aub2} alt="Second slide"/>
+      <img className="d-block w-100" src={aub2} alt="about page"/>
       <p className="pt-5">Search Results</p>
-      <img className="d-block w-100" src={aub3} alt="Third slide"/>
+      <img className="d-block w-100" src={aub3} alt="Search Results"/>
       <p className="pt-5">Check Out Page</p>
-      <img className="d-block w-100" src={aub4} alt="Third slide"/>
+      <img className="d-block w-100" src={aub4} alt="Check Out Page"/>
       <p className="pt-5">Landing Page (After Logged In)</p>
-      <img className="d-block w-100" src={aub5} alt="Third slide"/>
+      <img className="d-block w-100" src={aub5} alt="Landing Page"/>
 
       <h2 className="eyebrow">Generic Bid</h2>
       <a href="https://www.genericbid.com">Live Site</a>
       <hr/>
       <p className="pt-5">Before Logged in</p>
-      <img className="d-block w-100" src={gb1} alt="First slide"/>
+      <img className="d-block w-100" src={gb1} alt="homepage"/>
       <p className="pt-5">After Logged in</p>
-      <img className="d-block w-100" src={gb2} alt="Second slide"/>
+      <img className="d-block w-100" src={gb2} alt="logged in"/>
       <p className="pt-5">Details Page</p>
-      <img className="d-block w-100" src={gb3} alt="Third slide"/>
+      <img className="d-block w-100" src={gb3} alt="details page"/>
     </div>
   );
 }

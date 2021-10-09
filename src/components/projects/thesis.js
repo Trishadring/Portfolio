@@ -43,28 +43,28 @@ const Thesis = () =>  {
       </p>
       <hr/>
       <div className="d-flex flex-wrap">
-        <img alt="yes" className="" width="300" src={field1}/>
-        <img alt="yes" className="" width="300" src={field2}/>
-        <img alt="yes" className="" width="300" src={field3}/>
-        <img alt="yes" className="" width="300" src={field4}/>
-        <img alt="yes" className="" width="300" src={field5}/>
-        <img alt="yes" className="" width="300" src={field6}/>
-        <img alt="yes" className="" width="300" src={field7}/>
-        <img alt="yes" className="" width="300" src={field8}/>
+        <img alt="Field Research" className="" width="300" src={field1}/>
+        <img alt="Field Research" className="" width="300" src={field2}/>
+        <img alt="Field Research" className="" width="300" src={field3}/>
+        <img alt="Field Research" className="" width="300" src={field4}/>
+        <img alt="Field Research" className="" width="300" src={field5}/>
+        <img alt="Field Research" className="" width="300" src={field6}/>
+        <img alt="Field Research" className="" width="300" src={field7}/>
+        <img alt="Field Research" className="" width="300" src={field8}/>
       </div>
       <h2 className="">Documenting the types of traffic</h2>
       <hr/>
       <div className="d-flex flex-wrap">
-        <img alt="yes" className="" width="500" src={thesisPage5}/>
-        <img alt="yes" className="" width="500" src={thesisPage6}/>
-        <img alt="yes" className="" width="500" src={thesisPage7}/>
-        <img alt="yes" className="" width="500" src={thesisPage8}/>
+        <img alt="streetparking" className="" width="500" src={thesisPage5}/>
+        <img alt="hfa traffic flow" className="" width="500" src={thesisPage6}/>
+        <img alt="ccs students" className="" width="500" src={thesisPage7}/>
+        <img alt="street and hfa traffic flow combined" className="" width="500" src={thesisPage8}/>
       </div>
       <h2 className="">Video Documentation</h2>
       <hr/>
       <div className="row">
         <div className=" col-sm-12">
-          <iframe src="https://player.vimeo.com/video/165075289" width="100%" height="500" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+          <iframe title="Documentation" src="https://player.vimeo.com/video/165075289" width="100%" height="500" frameBorder="0" webkitallowfullscreen="" mozallowfullscreen="" allowFullScreen="" ></iframe>
           <p><a href="https://vimeo.com/165075289">Senior Thesis 2</a> from <a href="https://vimeo.com/tdring">Tdring</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
         </div>
       </div>
@@ -81,9 +81,9 @@ const Thesis = () =>  {
       </p>
       <hr/>
       <div className="d-flex flex-wrap">
-        <img alt="yes" className="" width="300" src={p1}/>
-        <img alt="yes" className="" width="300" src={p2}/>
-        <img alt="yes" className="" width="300" src={p3}/>
+        <img alt="questions 1" className="" width="300" src={p1}/>
+        <img alt="questions" className="" width="300" src={p2}/>
+        <img alt="questions" className="" width="300" src={p3}/>
       </div>
       <h2 className="">Responses</h2>
       <p className="explain">
@@ -210,7 +210,7 @@ const Thesis = () =>  {
           </p>
         </div>
       </div>
-      <img alt="yes" className="img-fluid" src={thesisPage18}/>
+      <img alt="finial proposal" className="img-fluid" src={thesisPage18}/>
     </div>
   );
 }
