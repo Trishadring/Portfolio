@@ -2,6 +2,27 @@ import '../../App.css';
 import './projects.css';
 import './thesis.css';
 
+import p1 from './imgs/fixhfa/p1.png';
+import p2 from './imgs/fixhfa/p2.png';
+import p3 from './imgs/fixhfa/p3.png';
+import field1 from './imgs/fixhfa/1.jpg';
+import field2 from './imgs/fixhfa/2.jpg';
+import field3 from './imgs/fixhfa/3.jpg';
+import field4 from './imgs/fixhfa/4.jpg';
+import field5 from './imgs/fixhfa/5.jpg';
+import field6 from './imgs/fixhfa/6.jpg';
+import field7 from './imgs/fixhfa/7.jpg';
+import field8 from './imgs/fixhfa/8.jpg';
+
+import thesisPage5 from './imgs/fixhfa/thesis_Page_05.jpg';
+import thesisPage6 from './imgs/fixhfa/thesis_Page_06.jpg';
+import thesisPage7 from './imgs/fixhfa/thesis_Page_07.jpg';
+import thesisPage8 from './imgs/fixhfa/thesis_Page_08.jpg';
+import thesisPage18 from './imgs/fixhfa/thesis_Page_18.jpg';
+
+
+
+
 const Thesis = () =>  {
   return (
     <div className="container" >
@@ -22,22 +43,22 @@ const Thesis = () =>  {
       </p>
       <hr/>
       <div className="d-flex flex-wrap">
-        <img alt="yes" className="" width="300" src="/imgs/fixhfa/1.jpg"/>
-        <img alt="yes" className="" width="300" src="/imgs/fixhfa/2.jpg"/>
-        <img alt="yes" className="" width="300" src="/imgs/fixhfa/3.jpg"/>
-        <img alt="yes" className="" width="300" src="/imgs/fixhfa/4.jpg"/>
-        <img alt="yes" className="" width="300" src="/imgs/fixhfa/5.jpg"/>
-        <img alt="yes" className="" width="300" src="/imgs/fixhfa/6.jpg"/>
-        <img alt="yes" className="" width="300" src="/imgs/fixhfa/7.jpg"/>
-        <img alt="yes" className="" width="300" src="/imgs/fixhfa/8.jpg"/>
+        <img alt="yes" className="" width="300" src={field1}/>
+        <img alt="yes" className="" width="300" src={field2}/>
+        <img alt="yes" className="" width="300" src={field3}/>
+        <img alt="yes" className="" width="300" src={field4}/>
+        <img alt="yes" className="" width="300" src={field5}/>
+        <img alt="yes" className="" width="300" src={field6}/>
+        <img alt="yes" className="" width="300" src={field7}/>
+        <img alt="yes" className="" width="300" src={field8}/>
       </div>
       <h2 className="">Documenting the types of traffic</h2>
       <hr/>
       <div className="d-flex flex-wrap">
-        <img alt="yes" className="" width="500" src="/imgs/fixhfa/thesis_Page_05.jpg"/>
-        <img alt="yes" className="" width="500" src="/imgs/fixhfa/thesis_Page_06.jpg"/>
-        <img alt="yes" className="" width="500" src="/imgs/fixhfa/thesis_Page_07.jpg"/>
-        <img alt="yes" className="" width="500" src="/imgs/fixhfa/thesis_Page_08.jpg"/>
+        <img alt="yes" className="" width="500" src={thesisPage5}/>
+        <img alt="yes" className="" width="500" src={thesisPage6}/>
+        <img alt="yes" className="" width="500" src={thesisPage7}/>
+        <img alt="yes" className="" width="500" src={thesisPage8}/>
       </div>
       <h2 className="">Video Documentation</h2>
       <hr/>
@@ -60,9 +81,9 @@ const Thesis = () =>  {
       </p>
       <hr/>
       <div className="d-flex flex-wrap">
-        <img alt="yes" className="" width="300" src="/imgs/fixhfa/p1.png"/>
-        <img alt="yes" className="" width="300" src="/imgs/fixhfa/p2.png"/>
-        <img alt="yes" className="" width="300" src="/imgs/fixhfa/p3.png"/>
+        <img alt="yes" className="" width="300" src={p1}/>
+        <img alt="yes" className="" width="300" src={p2}/>
+        <img alt="yes" className="" width="300" src={p3}/>
       </div>
       <h2 className="">Responses</h2>
       <p className="explain">
@@ -189,7 +210,7 @@ const Thesis = () =>  {
           </p>
         </div>
       </div>
-      <img alt="yes" className="img-fluid" src="/imgs/fixhfa/thesis_Page_18.jpg"/>
+      <img alt="yes" className="img-fluid" src={thesisPage18}/>
     </div>
   );
 }

@@ -1,5 +1,22 @@
 import '../../App.css';
 import './projects.css';
+import amandaCapabilities from './imgs/m3d/deshler/amanda/amanda-capabilities.png';
+import amandaImageGallery from './imgs/m3d/deshler/amanda/amanda-image-gallery.png';
+import amandaTeam from './imgs/m3d/deshler/amanda/amanda-team.png';
+import amandaHome from './imgs/m3d/deshler/amanda/amanda-home.png';
+import amandaProduct from './imgs/m3d/deshler/amanda/amanda-product.png';
+
+import gs3Homepage from './imgs/m3d/deshler/gs3/gs3-homepage.png';
+import gs3Timeline from './imgs/m3d/deshler/gs3/gs3-timeline.png';
+import amandaPressroom from './imgs/m3d/deshler/gs3/gs3-pressroom.png';
+
+import beaubien from './imgs/m3d/m3d-site/m3d-beaubien.png';
+import m3dParalee from './imgs/m3d/m3d-site/m3d-paralee.png';
+
+import paralee1 from './imgs/m3d/paralee/3.jpg';
+import paralee2 from './imgs/m3d/paralee/2.jpg';
+
+
 
 const M3d = () =>  {
   return (
@@ -20,30 +37,30 @@ const M3d = () =>  {
         The capabilities page had to be completely redone because of a phased out feature of the theme. A new team page was added and designed by myself.
       </p>
       <p className="pt-5">Amanda Manufacturing Capabilities</p>
-      <img className="d-block w-100" src="/imgs/m3d/deshler/amanda/amanda-capabilities.png" alt="Amanda Manufacturing Capabilities page"/>
+      <img className="d-block w-100" src={amandaCapabilities} alt="Amanda Manufacturing Capabilities page"/>
       <p className="pt-5">Amanda Manufacturing Image Gallery</p>
-			<img className="d-block w-100" src="/imgs/m3d/deshler/amanda/amanda-image-gallery.png" alt="Amanda Manufacturing Image Gallery"/>
+			<img className="d-block w-100" src={amandaImageGallery} alt="Amanda Manufacturing Image Gallery"/>
       <p className="pt-5">Amanda Manufacturing Team</p>
-			<img className="d-block w-100" src="/imgs/m3d/deshler/amanda/amanda-team.png" alt="Amanda Manufacturing Team Page"/>
+			<img className="d-block w-100" src={amandaTeam} alt="Amanda Manufacturing Team Page"/>
       <p className="pt-5">Amanda Products Homepage</p>
-			<img className="d-block w-100" src="/imgs/m3d/deshler/amanda/amanda-home.png" alt="Amanda Products Homepage"/>
+			<img className="d-block w-100" src={amandaHome} alt="Amanda Products Homepage"/>
       <p className="pt-5">Amanda Products Product Details</p>
-			<img className="d-block w-100" src="/imgs/m3d/deshler/amanda/amanda-product.png" alt="Amanda Products Product Detail Page"/>
+			<img className="d-block w-100" src={amandaProduct} alt="Amanda Products Product Detail Page"/>
 			
       <h2 className="eyebrow">GS3 SITE</h2>
       <hr/>
       <p>
-      This site was fully created in Wordpress by myself and one other person, but unfortunately, the site never launched. 
-      The site was created using the Avada theme, which included a lot of custom code created solely for this site, the majority of which was coded by myself. 
-      The most extensive and difficult custom code created for this site was the timeline.
-      This is due to the old timeline not fitting the current design and lacking the customization options required. All text was written by a copywriter with feedback from the client.
+        This site was fully created in Wordpress by myself and one other person, but unfortunately, the site never launched. 
+        The site was created using the Avada theme, which included a lot of custom code created solely for this site, the majority of which was coded by myself. 
+        The most extensive and difficult custom code created for this site was the timeline.
+        This is due to the old timeline not fitting the current design and lacking the customization options required. All text was written by a copywriter with feedback from the client.
       </p>
       <p className="pt-5">Homepage</p>
-      <img className="d-block w-100" src="/imgs/m3d/deshler/gs3/gs3-homepage.png" alt="Homepage"/>
+      <img className="d-block w-100" src={gs3Homepage} alt="Homepage"/>
       <p className="pt-5">Timeline</p>
-      <img className="d-block w-100" src="/imgs/m3d/deshler/gs3/gs3-timeline.png" alt="Timeline"/>
+      <img className="d-block w-100" src={gs3Timeline} alt="Timeline"/>
       <p className="pt-5">Press Room</p>
-      <img className="d-block w-100" src="/imgs/m3d/deshler/gs3/gs3-pressroom.png" alt="Press Room"/>
+      <img className="d-block w-100" src={amandaPressroom} alt="Press Room"/>
 
       <h2 className="eyebrow">M3D WEBSITE</h2>
       <hr/>
@@ -52,17 +69,17 @@ const M3d = () =>  {
       I created new pages for different projects, telling the story of each one.
       </p>
       <p className="pt-5">Bobien Fine Foods</p>
-      <img className="d-block w-100" src="/imgs/m3d/m3d-site/m3d-beaubien.png" alt="Homepage"/>
+      <img className="d-block w-100" src={beaubien} alt="Homepage"/>
       <p className="pt-5">Paralee Boyd</p>
-      <img className="d-block w-100" src="/imgs/m3d/m3d-site/m3d-paralee.png" alt="Timeline"/>
+      <img className="d-block w-100" src={m3dParalee} alt="Timeline"/>
 
       <h2 className="eyebrow">PARALEE BOYD</h2>
       <hr/>
       <p>
         Paralee Boyd is a salon opening up in midtown. I created the banners to advertise the store during construction.
       </p>
-      <img className="d-block w-100" src="/imgs/m3d/paralee/3.jpg" alt="Homepage"/>
-      <img className="d-block w-100" src="/imgs/m3d/paralee/2.jpg" alt="Timeline"/>
+      <img className="d-block w-100" src={paralee1} alt="Homepage"/>
+      <img className="d-block w-100" src={paralee2} alt="Timeline"/>
 
     </div>
   );
