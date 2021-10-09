@@ -1,5 +1,5 @@
 import './nav.css'
-import { Route, Link, Redirect} from "react-router-dom";
+import {Route, Link, Redirect} from "react-router-dom";
 import LogoS from '../imgs/logo-sm.png';
 import Logo1 from "../imgs/logo-01.png";
 import Projects from './project-list';
@@ -8,6 +8,7 @@ import M3d from './projects/m3d';
 import Uroute from './projects/uroute';
 import Thesis from './projects/thesis';
 import About from './about';
+import ACNH from './projects/acnh';
 
 const Nav = () => {
   return (
@@ -22,7 +23,7 @@ const Nav = () => {
           </Link>
           <ul className="nav">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/About">About</a>
+              <a className="nav-link active" aria-current="page" href="/about">About</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/">Resume</a>
@@ -33,15 +34,17 @@ const Nav = () => {
           </ul>
         </div>
       </header>
-      <Route exact path="/projects" component={Projects} />
+      <Route path="/projects" component={Projects} />
+      <Route path="/ACNH" component={ACNH}/>
       <Route path="/Auburn" component={Aub}/>
-      <Route path="/About" component={About}/>
+      <Route path="/about" component={About}/>
       <Route path="/M3D" component={M3d}/>
       <Route path="/Uroute" component={Uroute}/>
       <Route path="/FixHFA" component={Thesis}/>
       <Route exact path="/">
         <Redirect to="/projects" />
       </Route>
+      
   </div>
   );
 }

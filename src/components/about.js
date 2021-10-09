@@ -11,10 +11,10 @@ const About = () =>  {
         I've been working on getting a Front end Development job. 
       </p>
       <div>
-        <a className="link" target="_blank" href="https://www.linkedin.com/in/trisha-dring-1488b95b/">Linkedin</a>
-        <a className="link" target="_blank" href="https://github.com/Trishadring">GitHub</a>
-        <a className="link" target="_blank" href="https://www.ebay.com/str/gagnierfabric">Ebay Store</a>
-        <a className="link" target="_blank" href="https://www.etsy.com/shop/GagnierInc?ref=profile_header">Etsy</a>
+        <a className="link" rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/trisha-dring-1488b95b/">Linkedin</a>
+        <a className="link" rel="noopener noreferrer" target="_blank" href="https://github.com/Trishadring">GitHub</a>
+        <a className="link" rel="noopener noreferrer" target="_blank" href="https://www.ebay.com/str/gagnierfabric">Ebay Store</a>
+        <a className="link" rel="noopener noreferrer" target="_blank" href="https://www.etsy.com/shop/GagnierInc?ref=profile_header">Etsy</a>
       </div>
     </div>
   );
