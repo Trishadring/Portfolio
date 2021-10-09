@@ -22,22 +22,22 @@ const Thesis = () =>  {
       </p>
       <hr/>
       <div className="d-flex flex-wrap">
-        <img alt="yes" className="" width="300" src="http://tdring.com/w/fixhfa/imgs/1.jpg"/>
-        <img alt="yes" className="" width="300" src="http://tdring.com/w/fixhfa/imgs/2.jpg"/>
-        <img alt="yes" className="" width="300" src="http://tdring.com/w/fixhfa/imgs/3.jpg"/>
-        <img alt="yes" className="" width="300" src="http://tdring.com/w/fixhfa/imgs/4.jpg"/>
-        <img alt="yes" className="" width="300" src="http://tdring.com/w/fixhfa/imgs/5.jpg"/>
-        <img alt="yes" className="" width="300" src="http://tdring.com/w/fixhfa/imgs/6.jpg"/>
-        <img alt="yes" className="" width="300" src="http://tdring.com/w/fixhfa/imgs/7.jpg"/>
-        <img alt="yes" className="" width="300" src="http://tdring.com/w/fixhfa/imgs/8.jpg"/>
+        <img alt="yes" className="" width="300" src="/imgs/fixhfa/1.jpg"/>
+        <img alt="yes" className="" width="300" src="/imgs/fixhfa/2.jpg"/>
+        <img alt="yes" className="" width="300" src="/imgs/fixhfa/3.jpg"/>
+        <img alt="yes" className="" width="300" src="/imgs/fixhfa/4.jpg"/>
+        <img alt="yes" className="" width="300" src="/imgs/fixhfa/5.jpg"/>
+        <img alt="yes" className="" width="300" src="/imgs/fixhfa/6.jpg"/>
+        <img alt="yes" className="" width="300" src="/imgs/fixhfa/7.jpg"/>
+        <img alt="yes" className="" width="300" src="/imgs/fixhfa/8.jpg"/>
       </div>
       <h2 className="">Documenting the types of traffic</h2>
       <hr/>
       <div className="d-flex flex-wrap">
-        <img alt="yes" className="" width="500" src="http://tdring.com/w/fixhfa/imgs/thesis_Page_05.jpg"/>
-        <img alt="yes" className="" width="500" src="http://tdring.com/w/fixhfa/imgs/thesis_Page_06.jpg"/>
-        <img alt="yes" className="" width="500" src="http://tdring.com/w/fixhfa/imgs/thesis_Page_07.jpg"/>
-        <img alt="yes" className="" width="500" src="http://tdring.com/w/fixhfa/imgs/thesis_Page_08.jpg"/>
+        <img alt="yes" className="" width="500" src="/imgs/fixhfa/thesis_Page_05.jpg"/>
+        <img alt="yes" className="" width="500" src="/imgs/fixhfa/thesis_Page_06.jpg"/>
+        <img alt="yes" className="" width="500" src="/imgs/fixhfa/thesis_Page_07.jpg"/>
+        <img alt="yes" className="" width="500" src="/imgs/fixhfa/thesis_Page_08.jpg"/>
       </div>
       <h2 className="">Video Documentation</h2>
       <hr/>
@@ -60,9 +60,9 @@ const Thesis = () =>  {
       </p>
       <hr/>
       <div className="d-flex flex-wrap">
-        <img alt="yes" className="" width="300" src="http://tdring.com/w/fixhfa/imgs/p1.png"/>
-        <img alt="yes" className="" width="300" src="http://tdring.com/w/fixhfa/imgs/p2.png"/>
-        <img alt="yes" className="" width="300" src="http://tdring.com/w/fixhfa/imgs/p3.png"/>
+        <img alt="yes" className="" width="300" src="/imgs/fixhfa/p1.png"/>
+        <img alt="yes" className="" width="300" src="/imgs/fixhfa/p2.png"/>
+        <img alt="yes" className="" width="300" src="/imgs/fixhfa/p3.png"/>
       </div>
       <h2 className="">Responses</h2>
       <p className="explain">
@@ -189,7 +189,7 @@ const Thesis = () =>  {
           </p>
         </div>
       </div>
-      <img alt="yes" className="img-fluid" src="http://tdring.com/w/fixhfa/imgs/thesis_Page_18.jpg"/>
+      <img alt="yes" className="img-fluid" src="/imgs/fixhfa/thesis_Page_18.jpg"/>
     </div>
   );
 }
