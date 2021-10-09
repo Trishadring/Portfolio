@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/tdrilslt/public_html/
-    - /bin/cp -R build $DEPLOYPATH
+    - cp -r ./build $DEPLOYPATH
