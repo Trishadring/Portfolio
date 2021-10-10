@@ -21,8 +21,8 @@ const ACNH = () =>  {
         Skills used Html, CSS, Javascript, ES6, Heroku, React.js, 
       </p>
       <h2 className="eyebrow">Critters App</h2>
-      <a className="link" target="_blank" href="https://animal-crossing-nh.herokuapp.com/">Live Site</a>
-      <a className="link" target="_blank" href="https://github.com/Trishadring/Animal-Crossing-React">Github Code</a>
+      <a className="link" target="_blank" rel="noopener noreferrer" href="https://animal-crossing-nh.herokuapp.com/">Live Site</a>
+      <a className="link" target="_blank" rel="noopener noreferrer" href="https://github.com/Trishadring/Animal-Crossing-React">Github Code</a>
       <div className="clearfix"></div>
 
       

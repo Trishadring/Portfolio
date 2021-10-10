@@ -1,5 +1,10 @@
 import './nav.css'
-import {Route, Link, Redirect} from "react-router-dom";
+import {
+  Route,
+  Link,
+  Redirect,
+  Switch,
+} from "react-router-dom";
 import LogoS from '../imgs/logo-sm.png';
 import Logo1 from "../imgs/logo-01.png";
 import Projects from './project-list';
@@ -17,13 +22,27 @@ const Nav = () => {
         <div className="container">
         <Link to="/projects">
           <p className="mb-0 navbar-brand">
-            <img alt="Trisha Dring" className="image logo d-sm-none" src={LogoS}/>
-            <img className="image logo d-none d-sm-block" alt="Trisha Dring" src={Logo1}/>
+            <img 
+              alt="Trisha Dring" 
+              className="image logo d-sm-none" 
+              src={LogoS}
+            />
+            <img 
+              className="image logo d-none d-sm-block" 
+              alt="Trisha Dring" 
+              src={Logo1}
+            />
           </p>
           </Link>
           <ul className="nav">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/about">About</a>
+                <Link
+                  to="/about"
+                  className="nav-link active"
+                  aria-current="page"
+                >
+                  About
+                </Link>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/">Resume</a>
@@ -44,7 +63,6 @@ const Nav = () => {
       <Route exact path="/">
         <Redirect to="/projects" />
       </Route>
-      
   </div>
   );
 }

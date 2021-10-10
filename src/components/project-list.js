@@ -34,7 +34,7 @@ const Projects = () =>  {
       </Link>
       <Link to="/FixHFA">
         <div className="p-item">
-          <img alt="Photo of CCS" className="p-image" src={Thesis}/>
+          <img alt="College for creative studies" className="p-image" src={Thesis}/>
           <p className="caption">CCS & HFA Way-finding</p>
         </div>
       </Link>
