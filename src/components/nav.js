@@ -3,7 +3,6 @@ import {
   Route,
   Link,
   Redirect,
-  Switch,
 } from "react-router-dom";
 import LogoS from '../imgs/logo-sm.png';
 import Logo1 from "../imgs/logo-01.png";

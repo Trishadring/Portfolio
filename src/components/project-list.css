@@ -3,10 +3,8 @@ a{
 }
 
 .p-item{
-  max-width: 50ch;
-  margin:1em;
-  background-color: white;
-  box-shadow: 0 1px 4px rgb(12 12 13 / 10%);
+  margin:2em 2em 2em 0;
+ 
 }
 
 .p-image{
@@ -14,12 +12,20 @@ a{
 }
 
 .caption {
-  padding-top: 1rem;
+  padding: 1rem;
   letter-spacing: .1rem;
-  padding-bottom: 1rem;
   color: #4a4a4a;
   text-align: center;
+  display:inline;
+  background-color: white;
+  box-shadow: 0 1px 4px rgb(12 12 13 / 10%);
 }
+
+.caption:hover{
+  background-color: pink;
+  color:white;
+}
+
 
 .eyebrow {
   text-transform: uppercase;
