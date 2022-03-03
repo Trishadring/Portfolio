@@ -1,3 +1,4 @@
+import React from "react";
 import '../../../index.css';
 import '../projects.css';
 import amandaCapabilities from './imgs/deshler/amanda/amanda-capabilities.png';

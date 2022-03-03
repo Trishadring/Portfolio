@@ -1,0 +1,41 @@
+.table {
+  color: #4a4a4a;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.Year {
+  padding-right: 20px;
+  padding-left: 10px !important;
+}
+
+.Title {
+  font-family: GeogrotesqueB;
+  letter-spacing: 0.1rem;
+  padding-top: 15px;
+  padding-right: 20px;
+}
+
+.kgfDTC table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.madeAt {
+  white-space: nowrap;
+  font-size: .8em;
+}
+
+.tech {
+  line-height: 1.5;
+  font-size: .8em;
+}
+
+tr {
+  padding: 10px;
+}
+
+tr:hover {
+  background-color: pink;
+  color: white;
+}

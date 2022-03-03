@@ -1,3 +1,4 @@
+import React from "react";
 import '../../../index.css';
 import '../projects.css';
 import aub1 from './imgs/aub1.png';

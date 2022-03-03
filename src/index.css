@@ -8,11 +8,13 @@ html {
 @font-face {
   font-family: GeogrotesqueB;
   src: url(fonts/Geogrotesque-Bold.otf);
+  font-weight: bold;
 }
 
 @font-face {
   font-family: GeogrotesqueM;
   src: url(fonts/Geogrotesque-Medium.otf);
+  font-weight: medium;
 }
 
 body {
