@@ -9,6 +9,7 @@ const DATA = [{
       "Portfolio": ""
     }],
     "Decription": "",
+    "componentName": "MedRefill"
 
   },
   {
@@ -22,6 +23,7 @@ const DATA = [{
       "Portfolio": ""
     }],
     "Decription": "",
+    "componentName": "everyJob"
 
   },
   {
@@ -35,6 +37,7 @@ const DATA = [{
       "Portfolio": ""
     }],
     "Decription": "",
+    "componentName": "Pizza"
 
   },
   {
@@ -48,6 +51,7 @@ const DATA = [{
       "Portfolio": ""
     }],
     "Decription": "",
+    "componentName": "War"
 
   },
   {
@@ -61,6 +65,7 @@ const DATA = [{
       "Portfolio": "/ACNH"
     }],
     "Decription": "",
+    "componentName": "AnimalCrossing"
 
   },
   {
@@ -74,6 +79,7 @@ const DATA = [{
       "Portfolio": "/Auburn"
     }],
     "Decription": "",
+    "componentName": "Auburn"
 
   },
   {
@@ -87,6 +93,8 @@ const DATA = [{
       "Portfolio": ""
     }],
     "Decription": "",
+    "componentName": "GenericBid"
+
 
   },
 

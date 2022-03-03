@@ -5,11 +5,11 @@ import { Icon } from 'semantic-ui-react'
 import ProjectTable from '../../components/projects/projectTable/ProjectTable'
 import ProjectLinks from '../../components/projects/ProjectLinks/ProjectLinks'
 
-const Projects = () => {
+const Projects = ({data}) => {
   return (
     <div className="container portfolio-items">
       {/* <ProjectTable /> */}
-      <ProjectLinks />
+      <ProjectLinks data={data} />
       <Link to="/M3D">
         <div className="p-item">
           <p className="caption">M3D Experiences</p>

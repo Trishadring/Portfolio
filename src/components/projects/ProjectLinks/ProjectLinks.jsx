@@ -1,18 +1,20 @@
 import React from "react";
-import DATA from '../projectTable/ProjectData.js';
 import { Link } from "react-router-dom";
 // import { Table, Icon } from 'semantic-ui-react'
 
 
-const ProjectLinks = () => {
-  console.log(DATA, "Data")
+const ProjectLinks = ({ data }) => {
+  console.log(data, "data")
   return (
     <>
-      {DATA.map((project, i) => {
+      {data.map((project, i) => {
+        const webLink = project.Link[0].Portfolio;
         return (
-          <div className="p-item" key={i}>
+          <Link to={webLink} key={i}>
+          <div className="p-item" >
             <p className="caption">{project.Title}</p>
           </div>
+         </Link>
         );
       })}
     </>
