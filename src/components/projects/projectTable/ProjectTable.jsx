@@ -1,6 +1,5 @@
 import React from "react";
 import DATA from './ProjectData.js';
-import { Link } from "react-router-dom";
 import { Table, Icon } from 'semantic-ui-react'
 
 import './ProjectTable.css';

@@ -4,17 +4,15 @@ import { Link } from "react-router-dom";
 
 
 const ProjectLinks = ({ data }) => {
-  console.log(data, "data")
   return (
     <>
       {data.map((project, i) => {
-        const webLink = project.Link[0].Portfolio;
         return (
-          <Link to={webLink} key={i}>
-          <div className="p-item" >
-            <p className="caption">{project.Title}</p>
-          </div>
-         </Link>
+          <Link to={`/${project.componentName}`} key={i}>
+            <div className="p-item" >
+              <p className="caption">{project.Title}</p>
+            </div>
+          </Link>
         );
       })}
     </>

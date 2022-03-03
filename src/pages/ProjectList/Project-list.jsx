@@ -1,8 +1,6 @@
 import React from "react";
 import './project-list.css';
 import { Link } from "react-router-dom";
-import { Icon } from 'semantic-ui-react'
-import ProjectTable from '../../components/projects/projectTable/ProjectTable'
 import ProjectLinks from '../../components/projects/ProjectLinks/ProjectLinks'
 
 const Projects = ({data}) => {

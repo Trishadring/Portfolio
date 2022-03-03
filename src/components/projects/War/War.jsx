@@ -1,12 +1,16 @@
 import React from "react";
 import '../../../index.css';
 import '../projects.css';
+import Header from '../Header/Header'
 
 
-const War = () => {
+const War = ({data}) => {
+  console.log(data, "data")
   return (
-    <div>
-      Hello!
+    <div className="container" >
+      <Header data={data} />
+      <p>
+      </p>
     </div>
   );
 }
