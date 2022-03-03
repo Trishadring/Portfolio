@@ -1,20 +1,20 @@
-import '../../App.css';
-import './projects.css';
-import amandaCapabilities from './imgs/m3d/deshler/amanda/amanda-capabilities.png';
-import amandaImageGallery from './imgs/m3d/deshler/amanda/amanda-image-gallery.png';
-import amandaTeam from './imgs/m3d/deshler/amanda/amanda-team.png';
-import amandaHome from './imgs/m3d/deshler/amanda/amanda-home.png';
-import amandaProduct from './imgs/m3d/deshler/amanda/amanda-product.png';
+import '../../../index.css';
+import '../projects.css';
+import amandaCapabilities from './imgs/deshler/amanda/amanda-capabilities.png';
+import amandaImageGallery from './imgs/deshler/amanda/amanda-image-gallery.png';
+import amandaTeam from './imgs/deshler/amanda/amanda-team.png';
+import amandaHome from './imgs/deshler/amanda/amanda-home.png';
+import amandaProduct from './imgs/deshler/amanda/amanda-product.png';
 
-import gs3Homepage from './imgs/m3d/deshler/gs3/gs3-homepage.png';
-import gs3Timeline from './imgs/m3d/deshler/gs3/gs3-timeline.png';
-import amandaPressroom from './imgs/m3d/deshler/gs3/gs3-pressroom.png';
+import gs3Homepage from './imgs/deshler/gs3/gs3-homepage.png';
+import gs3Timeline from './imgs/deshler/gs3/gs3-timeline.png';
+import amandaPressroom from './imgs/deshler/gs3/gs3-pressroom.png';
 
-import beaubien from './imgs/m3d/m3d-site/m3d-beaubien.png';
-import m3dParalee from './imgs/m3d/m3d-site/m3d-paralee.png';
+import beaubien from './imgs/m3d-site/m3d-beaubien.png';
+import m3dParalee from './imgs/m3d-site/m3d-paralee.png';
 
-import paralee1 from './imgs/m3d/paralee/3.jpg';
-import paralee2 from './imgs/m3d/paralee/2.jpg';
+import paralee1 from './imgs/paralee/3.jpg';
+import paralee2 from './imgs/paralee/2.jpg';
 
 
 

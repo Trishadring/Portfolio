@@ -1,24 +1,24 @@
-import '../../App.css';
-import './projects.css';
+import '../../../index.css';
+import '../projects.css';
 import './thesis.css';
 
-import p1 from './imgs/fixhfa/p1.png';
-import p2 from './imgs/fixhfa/p2.png';
-import p3 from './imgs/fixhfa/p3.png';
-import field1 from './imgs/fixhfa/1.jpg';
-import field2 from './imgs/fixhfa/2.jpg';
-import field3 from './imgs/fixhfa/3.jpg';
-import field4 from './imgs/fixhfa/4.jpg';
-import field5 from './imgs/fixhfa/5.jpg';
-import field6 from './imgs/fixhfa/6.jpg';
-import field7 from './imgs/fixhfa/7.jpg';
-import field8 from './imgs/fixhfa/8.jpg';
+import p1 from './imgs/p1.png';
+import p2 from './imgs/p2.png';
+import p3 from './imgs/p3.png';
+import field1 from './imgs/1.jpg';
+import field2 from './imgs/2.jpg';
+import field3 from './imgs/3.jpg';
+import field4 from './imgs/4.jpg';
+import field5 from './imgs/5.jpg';
+import field6 from './imgs/6.jpg';
+import field7 from './imgs/7.jpg';
+import field8 from './imgs/8.jpg';
 
-import thesisPage5 from './imgs/fixhfa/thesis_Page_05.jpg';
-import thesisPage6 from './imgs/fixhfa/thesis_Page_06.jpg';
-import thesisPage7 from './imgs/fixhfa/thesis_Page_07.jpg';
-import thesisPage8 from './imgs/fixhfa/thesis_Page_08.jpg';
-import thesisPage18 from './imgs/fixhfa/thesis_Page_18.jpg';
+import thesisPage5 from './imgs/thesis_Page_05.jpg';
+import thesisPage6 from './imgs/thesis_Page_06.jpg';
+import thesisPage7 from './imgs/thesis_Page_07.jpg';
+import thesisPage8 from './imgs/thesis_Page_08.jpg';
+import thesisPage18 from './imgs/thesis_Page_18.jpg';
 
 
 

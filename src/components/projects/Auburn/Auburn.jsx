@@ -1,5 +1,5 @@
-import '../../App.css';
-import './projects.css';
+import '../../../index.css';
+import '../projects.css';
 import aub1 from './imgs/aub1.png';
 import aub2 from './imgs/aub2.png';
 import aub3 from './imgs/aub3.png';

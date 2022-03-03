@@ -1,9 +1,9 @@
-import '../../App.css';
-import './projects.css';
+import '../../../index.css';
+import '../projects.css';
 
-import homePage from './imgs/uroute/big.png';
-import contact from './imgs/uroute/CONTACT.png';
-import signUp from './imgs/uroute/SIGN2.png';
+import homePage from './imgs/big.png';
+import contact from './imgs/CONTACT.png';
+import signUp from './imgs/SIGN2.png';
 
 const Uroute = () =>  {
   return (
