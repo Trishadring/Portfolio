@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/tdrilslt/tdring.com/portfolio
-    - /bin/cp -R * $DEPLOYPATH
+    - export DEPLOYPATH=/home/tdrilslt/public_html/
+     - /bin/cp -R * $DEPLOYPATH
